@@ -1,0 +1,53 @@
+section{
+    display: block;
+    font-family: "Microsoft Sans Serif", serif;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.block-wrapper{
+    font-size: 0;
+}
+.icon{
+    width: calc(100% / 3);
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+}
+.highlight{
+    color: dodgerblue;
+    text-align: center;
+    font-size: 18px;
+}
+.text{
+    color: gray;
+    text-align: center;
+}
+img{
+    width: 45%;
+    height: 50%;
+    margin-left: 90px;
+}
+h2{
+    margin-left: 100px;
+}
+h3{
+    margin-top: 5px;
+}
+.content {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    font-size: 16px;
+    color: gray;
+}
+.content img{
+    margin-left: 50px;
+}
+.wrapper{
+    font-size: 0;
+}
+* {
+    box-sizing: border-box;
+}
